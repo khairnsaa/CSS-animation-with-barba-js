@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>CSS Animation Training - day 1</title>
+</head>
+<body data-barba="wrapper">
+    <!-- put here content that will not change
+    between your pages, like <header> or <nav> -->
+    <!-- <header>
+        <div class="logo">Your logo here</div>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header> -->
+  
+    <main data-barba="container" class="container is-clip" data-background="#9370db" data-barba-namespace="clip">
+      <!-- put here the content you wish to change
+      between your pages, like your main content <h1> or <p> -->
+        <div class="content">
+            <h1>This page was revealed<br />using a simple CSS <br />clip-path transition</h1>
+            <p>Now lets show some cover screen.</p>
+            <a href="./with-cover.html">Cover Transition</a>
+        </div>
+      <img src="../img/second mug smoothiest.png" alt="mug" width="300">
+    </main>
+  
+    <!-- put here content that will not change
+    between your pages, like <footer> -->
+    <!-- script -->
+    <script src="https://unpkg.com/@barba/core@2.9.7/dist/barba.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/css@2.1.15/dist/barba-css.umd.min.js"></script>
+    <script src="../index.js"></script>
+  </body>
+
+</html>

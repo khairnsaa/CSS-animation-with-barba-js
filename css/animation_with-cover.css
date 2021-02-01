@@ -1,0 +1,26 @@
+.with-cover-leave-active,
+.with-cover-enter-active,
+.with-cover-enter-active .transition,
+.with-cover-leave-active .transition {
+  transition: transform 0.75s var(--easing);
+}
+
+/* covers in */
+
+.with-cover-leave .transition {
+  transform: translateY(-100%);
+}
+
+.with-cover-leave-to .transition {
+  transform: translateY(0);
+}
+
+/* covers out */
+
+.with-cover-enter .transition {
+  transform: translateY(0);
+}
+
+.with-cover-enter-to .transition {
+  transform: translateY(100%);
+}

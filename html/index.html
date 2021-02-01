@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>CSS Animation Training - day 1</title>
+</head>
+<body data-barba="wrapper">
+    <!-- put here content that will not change
+    between your pages, like <header> or <nav> -->
+  
+    <main data-barba="container" class="container container-bg is-home" data-background="#fa9a9a" data-barba-namespace="home">
+      <!-- put here the content you wish to change
+      between your pages, like your main content <h1> or <p> -->
+      <div class="content">
+        <h1>We are learning<br />page transitions<br />with Barba.js</h1>
+        <p>This demo is using @barba/css plugin.</p>
+        <a href="fade.html">Fade Transition</a>
+      </div>
+      <img src="../img/second mug smoothiest.png" alt="mug" width="300">
+    </main>
+  
+    <!-- put here content that will not change
+    between your pages, like <footer> -->
+    <!-- script -->
+    <script src="https://unpkg.com/@barba/core@2.9.7/dist/barba.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/css@2.1.15/dist/barba-css.umd.min.js"></script>
+    <script src="../index.js"></script>
+  </body>
+
+</html>
